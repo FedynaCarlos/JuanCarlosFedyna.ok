@@ -1,0 +1,156 @@
+/* Custom styles for PrimeCodeSolutions */
+/*#021526*//*#03346E*//*#6EACDA*//*#E2E2B6*/
+
+
+
+
+body {
+    padding-top: 10px;
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 16px;
+    background-color: #3c6eaa;
+}
+.navbar{
+    background-color: #03346E!important;
+    color: white;
+    border-radius: 10px;
+    border: 0.02px solid #021526;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.navbar-brand{
+
+    color: white!important;
+    
+        
+}
+.bg-primary{
+    background-color: azure!important;
+}
+/*carrusell*/
+.carousel-item {
+    height: 70vh;
+    min-height: 100px;
+    background: #ddd;
+    /* Fondo gris claro por defecto */
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.carousel-caption {
+    bottom: 30%;
+    color: white;
+}
+
+
+/*Footer*/
+.bg-dark {
+    background-color: #021526!important; /* footer */
+    color: #ffffff; /* Texto blanco */
+    text-align: center;
+  
+    
+}
+.nav-link{
+    color: white!important;
+}
+.footer-link {
+    color: #ffffff; /* Color del enlace en el footer */
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+.footer-link:hover {
+    text-decoration: underline;
+}
+.linkedin-icon {
+    border-radius: 2px;
+    width: 20px;
+    /*Anchodelicono*/height: 20px;
+    /*Altodelicono*/background-color: #ffffff;
+    /*Fondoblanco*/fill: #03346E;
+    /*Colordelicono*/margin-right: 10px;
+    /*Espacioentreeliconoyeltexto*/-webkit-border-radius: 10px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+/*Inicio card de cv*/
+.card-full-width {
+    width: 100%;
+    border-radius: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+.card-header {
+    background-color: #003366; /* Azul Profundo */
+    color: #FFFFFF;
+}
+.card-header:hover{
+    color: #FF6F61;
+}
+.card-body {
+    background-color: #F5F5DC; /* Beige Cálido */
+}
+
+
+.whatsapp-btn {
+    color: #25D366;
+    /* Verde de WhatsApp */
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.whatsapp-btn:hover {
+    color: #128C7E;
+}
+/*fin card de cv*/
+.btn-primary{
+    background-color: #6B8E23;
+}
+.btn-primary:hover{
+    background-color: #FF6F61;
+}
+/*para el texto del pie de la imagen*/
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-img-top {
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el texto verticalmente */
+}
+
+.card-body p {
+    margin-bottom: 0;
+}
+
+.row {
+    display: flex;
+}
+
+.col-md-4, .col-md-8 {
+    height: 100%;
+}
