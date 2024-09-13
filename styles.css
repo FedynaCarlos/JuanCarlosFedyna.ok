@@ -141,6 +141,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center; /* Centra el texto verticalmente */
+text-align: justify;
 }
 
 .card-body p {
@@ -154,3 +155,75 @@ body {
 .col-md-4, .col-md-8 {
     height: 100%;
 }
+
+
+
+/* Estilos generales para el botón */
+.arrow-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    /*Eliminarelsubrayadodelenlace*/color: #fff;
+    background-color: #6B8E23;
+    /*Colordefondodelbotón*/border: 2px solid #6B8E23;
+    /*Colordelbordedelbotón*/border-radius: 10px;
+    /*Bordesredondeados*/position: relative;
+    transition: background-color 0.3s, color 0.3s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* Flecha dentro del botón */
+.arrow-button::before {
+    content: "\f061"; /* Código Unicode para la flecha hacia la derecha en FontAwesome */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 18px;
+    margin-right: 8px; /* Espacio entre la flecha y el texto */
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+/* Estilo al pasar el mouse sobre el botón */
+.arrow-button:hover {
+    background-color: #FF6F61; /* Color de fondo al pasar el mouse */
+    color: #fff; /* Color del texto al pasar el mouse */
+    text-decoration: none; /* Asegurar que no haya subrayado en hover */
+}
+
+/* Estilo para el botón de "Anterior página" */
+.arrow-button.arrow-button-left {
+    background-color: #6B8E23; /* Color de fondo para el botón de "Anterior página" */
+    border-color: #6B8E23; /* Color del borde para el botón de "Anterior página" */
+}
+
+/* Efecto al pasar el mouse sobre el botón de "Anterior página" */
+.arrow-button.arrow-button-left:hover {
+    background-color: #FF6F61; /* Color de fondo al pasar el mouse para "Anterior página" */
+    text-decoration: none; /* Asegurar que no haya subrayado en hover */
+}
+
+/* Flecha para el botón de "Anterior página" */
+.arrow-button.arrow-button-left::before {
+    content: "\f060"; /* Código Unicode para la flecha hacia la izquierda en FontAwesome */
+    margin-right: 0; /* Eliminar el margen a la derecha */
+    margin-left: 10px; /* Espacio entre la flecha y el texto */
+}
+
+
+/* Estilo por defecto para todos los dispositivos */
+#home {
+    display: block; /* O el estilo que prefieras por defecto */
+  }
+  
+  /* Ocultar el div en pantallas con ancho máximo de 768px (típico para móviles) */
+  @media (max-width: 768px) {
+    #home {
+      display: none;
+    }
+  }
