@@ -220,10 +220,9 @@ text-align: justify;
 #home {
     display: block; /* O el estilo que prefieras por defecto */
   }
-  
-  /* Ocultar el div en pantallas con ancho máximo de 768px (típico para móviles) */
-  @media (max-width: 768px) {
+ 
+  @media (max-width: 1024px) {
     #home {
-      display: none;
+        display: none;
     }
-  }
+}
