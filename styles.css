@@ -62,3 +62,18 @@ body {
     border: 2px solid var(--secondary-color);
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
+/* Estilo para el botón de navegación de página */
+.special-button {
+    background-color: var(--hover-color); /* Fondo en color de acento */
+    color: var(--text-light-color); /* Texto blanco */
+    border: 2px solid var(--hover-color); /* Borde en el mismo color de fondo */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.special-button:hover {
+    background-color: var(--primary-color); /* Fondo azul oscuro en hover */
+    color: var(--text-light-color);
+}
