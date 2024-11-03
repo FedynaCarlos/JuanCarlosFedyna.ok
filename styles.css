@@ -1,17 +1,18 @@
 :root {
     --primary-color: #03346E;
-    --secondary-color: #6B8E23;
-    --hover-color: #FF6F61;
+    --secondary-color: #3C6EAA;
+    --hover-color: #C4827D; /* Hover más acentuado */
     --bg-dark-color: #021526;
     --text-light-color: #ffffff;
-    --beige-bg-color: #F5F5DC;
+    --beige-bg-color: #F5F5DC; /* Beige claro */
+    --alt-bg-color: #E8E8E8; /* Gris claro para secciones alternativas */
 }
 
 body {
     padding-top: 10px;
     font-family: 'Inria Sans', sans-serif;
     font-size: 16px;
-    background-color: #3c6eaa;
+    background-color: var(--secondary-color);
 }
 
 .navbar {
@@ -23,6 +24,10 @@ body {
 
 .nav-link {
     color: var(--text-light-color) !important;
+}
+
+.nav-link:hover {
+    color: var(--hover-color); /* Color de hover para navbar */
 }
 
 .footer-link {
@@ -44,6 +49,10 @@ body {
 
 .card-body {
     background-color: var(--beige-bg-color);
+}
+
+.alt-card-body {
+    background-color: var(--alt-bg-color); /* Fondo alternativo para otras secciones */
 }
 
 /* Botón Flecha */
