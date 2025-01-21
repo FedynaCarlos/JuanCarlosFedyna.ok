@@ -1,37 +1,28 @@
-:root {
-    --primary-color: #03346E;
-    --secondary-color: #3C6EAA;
-    --hover-color: #C4827D; /* Hover más acentuado */
-    --bg-dark-color: #021526;
-    --text-light-color: #ffffff;
-    --beige-bg-color: #F5F5DC; /* Beige claro */
-    --alt-bg-color: #E8E8E8; /* Gris claro para secciones alternativas */
-}
-
+/* Paleta de colores aplicada directamente */
 body {
     padding-top: 10px;
     font-family: 'Inria Sans', sans-serif;
     font-size: 16px;
-    background-color: var(--secondary-color);
+    background-color: rgb(0 12 12);
 }
 
 .navbar {
-    background-color: var(--primary-color) !important;
-    color: var(--text-light-color);
+    background-color: rgba(7, 13, 13, 1);
+    color: rgba(27, 121, 110, 0.445);
     border-radius: 10px;
-    border: 0.02px solid var(--bg-dark-color);
+    border: 0.03px solid rgb(49, 143, 33);
 }
 
 .nav-link {
-    color: var(--text-light-color) !important;
+    color: rgb(6, 9, 20);
 }
 
 .nav-link:hover {
-    color: var(--hover-color); /* Color de hover para navbar */
+    color: rgb(13, 4, 34); /* Color de hover para navbar */
 }
 
 .footer-link {
-    color: var(--text-light-color);
+    color: rgba(125, 249, 255, 1);
     text-decoration: none;
     display: inline-flex;
     align-items: center;
@@ -39,34 +30,35 @@ body {
 
 /* Cards */
 .card-header {
-    background-color: var(--primary-color);
-    color: var(--text-light-color);
+    background-color: rgba(7, 13, 13, 1);
+    color: rgb(216, 208, 208);
 }
 
 .card-header:hover {
-    color: var(--hover-color);
+    color: rgba(55, 247, 19, 1);
 }
 
 .card-body {
-    background-color: var(--beige-bg-color);
+    background-color: rgb(252, 244, 244);
 }
 
 .alt-card-body {
-    background-color: var(--alt-bg-color); /* Fondo alternativo para otras secciones */
+    background-color: rgba(204, 204, 204, 1); /* Fondo alternativo para otras secciones */
 }
 
 /* Botón Flecha */
 .arrow-button {
-    background-color: var(--secondary-color);
-    color: var(--text-light-color);
-    border: 2px solid var(--secondary-color);
+    background-color: rgba(125, 249, 255, 1);
+    color: rgba(7, 13, 13, 1);
+    border: 2px solid rgba(125, 249, 255, 1);
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
+
 /* Estilo para el botón de navegación de página */
 .special-button {
-    background-color: var(--hover-color); /* Fondo en color de acento */
-    color: var(--text-light-color); /* Texto blanco */
-    border: 2px solid var(--hover-color); /* Borde en el mismo color de fondo */
+    background-color: rgb(20, 5, 29); /* Fondo en color de acento */
+    color: rgb(248, 245, 245); /* Texto blanco */
+    border: 3px solid rgb(55, 167, 35); /* Borde en el mismo color de fondo */
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -74,6 +66,18 @@ body {
 }
 
 .special-button:hover {
-    background-color: var(--primary-color); /* Fondo azul oscuro en hover */
-    color: var(--text-light-color);
+    background-color: rgba(7, 13, 13, 1); /* Fondo azul oscuro en hover */
+    color: rgb(116, 79, 79);
 }
+.custom-btn {
+    background-color: rgb(116, 79, 79); /* Color base */
+    color: rgba(255, 255, 255, 1); /* Color del texto */
+    border-color: rgb(2, 21, 27); /* Color del borde */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+}
+
+.custom-btn:hover {
+    background-color: rgb(255, 100, 130); /* Color al hacer hover */
+    color: rgba(255, 255, 255, 0.9); /* Cambia ligeramente el texto si lo deseas */
+}
+
