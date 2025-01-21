@@ -2,15 +2,16 @@
 body {
     padding-top: 10px;
     font-family: 'Inria Sans', sans-serif;
-    font-size: 16px;
-    background-color: rgb(0 12 12);
+    font-size: 18px;
+    background-color: rgb(17, 17, 20);
 }
 
+/* Asegura que todos los elementos con borde tengan el color correcto */
 .navbar {
-    background-color: rgba(7, 13, 13, 1);
+    background-color: rgb(220, 231, 231);
     color: rgba(27, 121, 110, 0.445);
     border-radius: 10px;
-    border: 0.03px solid rgb(49, 143, 33);
+    border: 0.3px solid rgb(55, 176, 35) !important; /* Bordes de 1px con el color deseado */
 }
 
 .nav-link {
@@ -28,51 +29,42 @@ body {
     align-items: center;
 }
 
-/* Cards */
 .card-header {
     background-color: rgba(7, 13, 13, 1);
-    color: rgb(216, 208, 208);
+    color: white;
+    border: 0.3px solid rgb(55, 176, 35) !important; /* Bordes de 1px con el color deseado */
 }
 
 .card-header:hover {
-    color: rgba(55, 247, 19, 1);
+    color: rgba(55, 247, 19, 1); /* Cambiar color del texto en hover */
 }
 
 .card-body {
-    background-color: rgb(252, 244, 244);
-}
-
-.alt-card-body {
-    background-color: rgba(204, 204, 204, 1); /* Fondo alternativo para otras secciones */
-}
-
-/* Botón Flecha */
-.arrow-button {
-    background-color: rgba(125, 249, 255, 1);
-    color: rgba(7, 13, 13, 1);
-    border: 2px solid rgba(125, 249, 255, 1);
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    color: aqua;
+    background-color: black; /* Fondo blanco para el cuerpo de las cards */
+    border: 0.3px solid rgb(55, 176, 35) !important; /* Bordes de 1px con el color deseado */
 }
 
 /* Estilo para el botón de navegación de página */
 .special-button {
-    background-color: rgb(20, 5, 29); /* Fondo en color de acento */
-    color: rgb(248, 245, 245); /* Texto blanco */
-    border: 3px solid rgb(55, 167, 35); /* Borde en el mismo color de fondo */
+    background-color: rgb(20, 5, 29);
+    color: rgb(248, 245, 245);
+    border: 0.3px solid rgb(55, 176, 35) !important; /* Bordes de 1px con el color deseado */
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 8px;
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .special-button:hover {
     background-color: rgba(7, 13, 13, 1); /* Fondo azul oscuro en hover */
-    color: rgb(116, 79, 79);
+    color: rgb(224, 228, 231);
 }
+
 .custom-btn {
-    background-color: rgb(116, 79, 79); /* Color base */
+    background-color: rgba(34, 4, 32, 0.685); /* Color base */
     color: rgba(255, 255, 255, 1); /* Color del texto */
-    border-color: rgb(2, 21, 27); /* Color del borde */
+    border: 0.3px solid rgb(55, 176, 35) !important; /* Bordes de 1px con el color deseado */
     transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
 }
 
@@ -81,3 +73,42 @@ body {
     color: rgba(255, 255, 255, 0.9); /* Cambia ligeramente el texto si lo deseas */
 }
 
+.linkedin-icon,
+.github-icon {
+    width: 30px;  /* Ajusta el tamaño del ícono */
+    height: 30px; /* Mantén la proporción */
+}
+
+.linkedin-icon path {
+    fill: #0077B5;  /* Color de LinkedIn */
+}
+
+.github-icon path {
+    fill: white;  /* Color de GitHub */
+}
+
+.social-icons {
+    display: flex;               /* Utiliza flexbox para alinear los elementos en fila */
+    justify-content: center;     /* Centra los íconos */
+    gap: 15px;                   /* Espacio entre los íconos */
+}
+/* Asegura que todos los elementos con borde en las cards tengan el color correcto */
+.card {
+    border: 0.3px solid rgb(55, 176, 35) !important; /* Bordes de 1px en la tarjeta */
+}
+
+.card-header {
+    background-color: rgba(7, 13, 13, 1);
+    color: white;
+    border: 0.3px  rgb(55, 176, 35) !important; /* Bordes de 1px en el header de la card */
+}
+
+.card-body {
+    color: aqua;
+    background-color: black;
+    border: 0.3px  rgb(55, 176, 35) !important; /* Bordes de 1px en el body de la card */
+}
+
+.card-footer {
+    border: 0.3px  rgb(55, 176, 35) !important; /* Bordes de 1px en el footer de la card (si existe) */
+}
