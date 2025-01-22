@@ -104,7 +104,7 @@ body {
 }
 
 .card-body {
-    color: aqua;
+    color: white;
     background-color: black;
     border: 0.3px  rgb(55, 176, 35) !important; /* Bordes de 1px en el body de la card */
 }
