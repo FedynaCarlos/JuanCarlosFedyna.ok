@@ -57,7 +57,7 @@ body {
 }
 
 .special-button:hover {
-    background-color: rgba(7, 13, 13, 1); /* Fondo azul oscuro en hover */
+    background-color: rgb(44, 105, 105); /* Fondo azul oscuro en hover */
     color: rgb(224, 228, 231);
 }
 
