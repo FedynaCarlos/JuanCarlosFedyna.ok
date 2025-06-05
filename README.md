@@ -32,7 +32,7 @@ Desarrollador web proactivo y responsable. Me apasiona trabajar en equipo, crear
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white)
 ![jQuery](https://img.shields.io/badge/-jQuery-0769AD?style=flat&logo=jquery&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![Zeroheight](https://img.shields.io/badge/-Zeroheight-121212?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4...==" width="14" height="14"> Zeroheight)
+![Zeroheight]
 
 ---
 
