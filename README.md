@@ -5,7 +5,7 @@
 
 ### 📫 Contacto
 - 📧 Email: [juanfedyn@gmail.com](mailto:juanfedyn@gmail.com)
-- 🌐 Portfolio: [JCF code](https://github.com/FedynaCarlos)
+- 🌐 Portfolio: [JCF code](https://juan-carlos-fedyna-jcf.netlify.app/)
 - 💼 LinkedIn: [Juan Carlos Fedyna](https://www.linkedin.com/in/juancarlosfedyna/)
 - 🧑‍💻 GitHub: [@FedynaCarlos](https://github.com/FedynaCarlos)
 
