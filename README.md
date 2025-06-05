@@ -1,5 +1,5 @@
 <h1 align="center">👨‍💻 Juan Carlos Fedyna</h1>
-<h3 align="center">Frontend Developer | Full Stack Jr | Buenos Aires, Argentina 🇦🇷</h3>
+<h3 align="center"> Full Stack Developer | React & Node.js | Frontend Developer | Buenos Aires, Argentina 🇦🇷</h3>
 
 ---
 
